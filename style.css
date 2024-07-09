@@ -1,0 +1,226 @@
+body{
+    background-color: black;
+    margin: auto;
+}
+.head{
+    background-color: #f5f5f5;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: #cccccc solid 1px;
+}
+.imagem_a{
+    width: 85px;
+}
+
+.imagem_b{
+    height: 15px;
+}
+.grupo_de_imagem_b img{
+    height: 25px;
+}
+
+.head a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color:#151515;
+
+}
+
+a:hover{
+    color:aqua;
+    transition: 0.5s;
+}
+.inpt_head{
+    border-radius: 20px;
+    border: #151515 solid 0.2px;
+    height: 20px;
+    background-color: #f5f5f5;
+}
+
+.fundo_selecao_de_produtos{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.selecao_de_produtos{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
+.fundo_cartao_um{
+    background-color: #ffffff;
+    width: fit-content;
+    color: #151515;
+    font-family: "Poppins", sans-serif;
+    padding: 4.8px;;
+    border: #cccccc solid 1px;
+    border-radius: 20px;
+    text-align: center;
+}
+.fundo_cartao_um img{
+    background-color: #ffffff;
+    width: 250px;
+    height: 250px;
+}
+.fundo_cartao_dois{
+    background-color: #ffffff;
+    width: fit-content;
+    color: #151515;
+    font-family: "Poppins", sans-serif;
+    padding: 20px;;
+    border: #cccccc solid 1px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.fundo_cartao_dois img{
+    background-color: #f5f5f5;
+    width: 200px;
+    height: 200px;
+    width: fit-content;
+}
+.botoes_produto_um img{
+    height: 20px;
+    width: 20px;
+}
+.botoes_produto_um button{
+    background-color: #ffffff;
+    border: #151515 solid 1px;
+    margin-right: 2px;
+    border-radius: 10px;
+    height: 30px;
+}
+.botoes_produto_um{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.botoes_produto_dois img{
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+}
+.botoes_produto_dois button{
+    background-color: #ffffff;
+    border: #151515 solid 1px;
+    border-radius: 10px;
+    height: 30px;
+    margin-right: 2px;
+}
+.botoes_produto_dois{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.preco{
+    color: green;
+}
+.adicionar_carrinho:hover{
+    color: #f5f5f5;
+    background-color: #151515;
+    transition: 0.3s;
+}
+
+.carrosel img{
+    height: 500px;
+    background-color: black;
+}
+.carrosel{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.carrosel button{
+    background-color: #f5f5f5;
+    border: #151515 solid 1px;
+    color: #151515;
+}
+.fundo_do_bloco_airpods{
+    background-color: black;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+.airpods_div_pai{
+    display: flex;
+    justify-content: start;
+    background-color: #cccccc;
+    border-radius: 20px;
+}
+.airpods{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.airpods_text{
+    margin-top: 0px;
+    margin-left: 100px;
+    text-align: start;
+
+}
+
+.airpods img{
+ height: 400px;
+ width: 480px;
+ border-radius: 50px;
+}
+
+.botao_airpods{
+    margin-top: 50px;
+}
+.botao_airpods button{
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+.botao_airpods button:hover{
+    background-color: #151515;
+    color: #f5f5f5;
+    font: bold;
+    transition: 0.5s;
+    
+}
+
+footer{
+    background-color: black;
+    color: #ffffff;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+footer img{
+    height: 25px;
+    width: 25px;
+}
+
+footer h6{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+.redes_sociais a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.redes_sociais a:hover{
+    color: #cccccc;
+    
+}
